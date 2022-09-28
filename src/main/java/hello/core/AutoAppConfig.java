@@ -13,8 +13,8 @@ import org.springframework.context.annotation.FilterType;
 ) // @Component가 붙은 클래스를 찾아 자동으로 스프링 빈을 등록해준다.
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
-    MemoryMemberRepository memberRepository(){
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemoryMemberRepository memberRepository(){
+//        return new MemoryMemberRepository();
+//    }
 }
